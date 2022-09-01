@@ -25,7 +25,6 @@ const DeleteModal = ({ setDeleting, deleteComment, setDeleteModalState }) => {
             Yes, delete
           </button>
         </div>
-        ddff
       </div>
     </div>
   );
