@@ -15,8 +15,7 @@ const DeleteModal = ({ setDeleting, deleteComment, setDeleteModalState }) => {
       <div className="delete-container">
         <div className="title">Delete comment</div>
         <div className="confirmation-message">
-          Are you sure you want to delete this comment? This will remove the
-          comment and can't be undone.
+          Are you sure?
         </div>
         <div className="btn-container">
           <button className="cancel-btn" onClick={cancelDelete}>
@@ -26,6 +25,7 @@ const DeleteModal = ({ setDeleting, deleteComment, setDeleteModalState }) => {
             Yes, delete
           </button>
         </div>
+        ddff
       </div>
     </div>
   );
